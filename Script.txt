@@ -1,0 +1,27 @@
+CREATE DATABASE cliente;
+USE cliente;
+CREATE TABLE Cliente (
+    ClienteId int NOT NULL,
+    nome varchar(255),
+    endereco varchar(255),
+    estado varchar(255),
+    cidade varchar(255),
+    PRIMARY KEY(CLienteId)
+);
+INSERT INTO cliente (ClienteId, nome, endereco, estado, cidade)
+VALUES (1, 'Tom B. Erichsen', 'Rua da Mooca 21', 'São Paulo', 'São Paulo');
+
+INSERT INTO cliente (ClienteId, nome, endereco, estado, cidade)
+VALUES (2, 'Tom B. Erichsen', 'Rua da Mooca 21', 'São Paulo', 'São Paulo');
+
+INSERT INTO cliente (ClienteId, nome, endereco, estado, cidade)
+VALUES (3, 'Tom B. Erichsen', 'Rua da Mooca 21', 'São Paulo', 'São Paulo');
+
+INSERT INTO cliente (ClienteId, nome, endereco, estado, cidade)
+VALUES (4, 'Tom B. Erichsen', 'Rua da Mooca 21', 'São Paulo', 'São Paulo');
+
+INSERT INTO cliente (ClienteId, nome, endereco, estado, cidade)
+VALUES (5, 'Tom B. Erichsen', 'Rua da Mooca 21', 'São Paulo', 'São Paulo');
+
+INSERT INTO cliente (ClienteId, nome, endereco, estado, cidade)
+VALUES (6, 'Tom B. Erichsen', 'Rua da Mooca 21', 'São Paulo', 'São Paulo');
